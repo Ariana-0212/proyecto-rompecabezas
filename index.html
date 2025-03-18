@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rompecabezas Tecnológico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Rompecabezas Tecnológico</h1>
+  </header>
+
+  <section id="menu">
+    <div class="control">
+      <label for="difficulty">Selecciona la dificultad (NxN, máximo 10):</label>
+      <input type="number" id="difficulty" min="3" max="10" value="3">
+    </div>
+    <div class="buttons">
+      <button id="start-btn">JUGAR</button>
+      <button id="check-btn">Comprobar</button>
+    </div>
+  </section>
+
+  <main id="game-container"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
